@@ -234,7 +234,8 @@
          
         
       </section>
-      <!-- Couses section ended -->
+      <!-- Courses section ended -->
+
       <!-- Ready to join section started -->
     <section class=" container rounded-2 ready text-white p-5 mt-3 ">
      <div class=" container d-flex flex-row align-items-center justify-content-between">
@@ -243,7 +244,38 @@
         <p>It is a long established fact that a reader will be distracted by the <br>  readable content of a page when looking at its layout.</p>
        </div>
        <div class="px-5">
-        <button class="btn bg-white  rounded-2 " style="color:#289BDE "> <a href="form.html" class="text-decoration-none" > Register Now</a></button>
+        <button type="button" class="btn bg-white  rounded-2 " style="color:#289BDE" data-bs-toggle="modal"  data-bs-target="#myModal">  Register Now </button>
+        <div class="modal" id="myModal" >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-primary">
+                <h5 class="modal-title">Registration Form</h5>
+               </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label text-black">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label text-black">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
        </div>
      </div>
     </section>
@@ -316,8 +348,22 @@
       </div>
     </div>
    </section>
-   
-   <!-- question section ended -->
+    <!-- question section ended -->
+    <!-- company section started -->
+    <section class="sm-visually-hidden">
+      <div class="container p-4 ">
+        <h1 class="fw-bold text-center pb-2">Trusted by over 800+ Companies</h1>
+      <div class="d-flex flex-lg-row justify-content-lg-evenly align-items-center h-25">
+        <img src="images/company/company-1.png" alt="" src:="">
+        <img src="images/company/company-2.png" alt="" src:="">
+        <img src="images/company/company-3.png" alt="" src:="">
+        <img src="images/company/company-4.png" alt="" src:="">
+        <img src="images/company/company-5.png" alt="" src:="">
+        <img src="images/company/company-6.png" alt="" src:="">
+      </div>
+      </div>
+    </section>
+    <!-- company section ended -->
     
     </main>
     <footer>
