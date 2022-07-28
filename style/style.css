@@ -11,3 +11,10 @@ body{
 .ready{
     background-color: #289BDE;
 }
+.fa-star{
+    color: goldenrod;
+}
+.fa-star-half-stroke{
+    color: goldenrod;
+
+}
