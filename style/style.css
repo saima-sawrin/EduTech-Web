@@ -19,3 +19,6 @@ body{
     color: goldenrod;
     
 }
+.card-img{
+    filter: brightness(60%);
+}
